@@ -1,0 +1,33 @@
+Instructions
+
+1. Download the template you want to use.
+
+Link used here : https://startbootstrap.com/themes/agency/
+
+2. Create a react project for the website.
+
+Command : npx create-react-app Portfolio
+
+Note : Parallely open both projects as tere is a lot of copy paste from template to project.
+
+3. Copy all css,images,vendor,js folders, tags for bootstrap, js etc to the project.
+
+4. Prepend PUBLIC_URL at necessary tags.
+
+Note: class=" --> className="
+
+5.Create Home, Nav components
+6. Import and use in app.js
+
+----end of commit "template portfolio nav,header" ---------------
+
+7. npm install --save react-router-dom
+
+For react routing
+
+8. Use <Router>on app.js and mount Home on "/",Navigation.
+
+Note <a ---> <Link, </a --></Link, href= --->to=, #pagename --> /pagename,
+
+
+9. Create about component(alt="">----> alt=""/>)
