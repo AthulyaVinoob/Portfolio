@@ -2,6 +2,10 @@ import React,{Component} from 'react';
 import Header from '../common/Header';
 import Services from '../common/Services';
 import Portfolio from '../common/Portfolio';
+import Team from '../common/Team';
+import Client from '../common/Client';
+import AboutComponent from '../common/AboutComponent';
+import Contact from './Contact';
 import image from '../images/header-bg.jpg';
 class Home extends Component{
 
@@ -18,6 +22,10 @@ class Home extends Component{
 				 /> 
 				 <Services/>
 				 <Portfolio/>
+				 <AboutComponent/>
+				 <Team/>
+				 <Client/>
+				 <Contact/>
 			</div>
 		);
 	}
