@@ -3,13 +3,14 @@ const defaultState ={
 	token :null
 }
 
-const auth= (state =defaultState, action) =>{
+const auth= (state = defaultState, action) =>{
 	switch(action.type){
 		case 'LOGIN':
 			return {
 				...state,
 				user:action.payload,
-				token:1
+				token: 1
+				//token:action.payload.token
 					}
 		default:
 			return state
